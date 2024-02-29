@@ -1,12 +1,22 @@
 {
-  "name": "portfolio",
+  "name": "my-portfolio",
   "version": "1.0.0",
-  "description": "portfolio",
+  "description": "my-portfolio",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilianagorga/my-portfolio.git"
+  },
   "author": "lilianagorga",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilianagorga/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/lilianagorga/my-portfolio#readme",
+  "dependencies": {
+    "@emailjs/browser": "^4.1.0"
+  }
 }
